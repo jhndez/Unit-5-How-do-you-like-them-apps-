@@ -23,12 +23,11 @@
 
 
 # Portfolio Planner
-As a note, my connection to Alpaca was denied in the middle of analysis. I received this error "HTTPError: 401 Client Error: Unauthorized for url: https://data.alpaca.markets/v1/bars/1D?symbols=SPY%2CAGG&start=2019-04-21+22%3A36%3A09.544492&end=2020-04-20+22%3A36%3A09.544492"
 
-and this one as well "access key verification failed (Code = 40110000)"
+ ## I returned the closing prices for SPY and AGG, using that data to acertain the volatility. Which was higher for AGG than for SPY. 
 
+ ## The MonteCarlo simuation returned favorable returns. 
 
-I tried to reset the keys multiple times, and even manually inputting them. Please evaluate my code as if alpaca API was running. I did my best to write code that will reflect without errors and answer questions dilligently. 
 
 
 
